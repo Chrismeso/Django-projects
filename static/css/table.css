@@ -1,0 +1,22 @@
+img{
+    height: 180px;
+    width: 180px;
+}
+table,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 20px;
+}
+table{
+    width: 100%;
+
+}
+.button1{
+    background: orange;
+    color: white;
+}
+
+.button2{
+    background: red;
+    color: white;
+}
