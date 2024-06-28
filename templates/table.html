@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Table</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/table.css' %}">
+</head>
+<body>
+<h1>PERSONAL INFORMATION</h1>
+
+<table>
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Avatar</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>George</td>
+        <td>Blue</td>
+        <td>
+            <img src="{% static 'assets/images/george.jpeg' %}" alt="">
+        </td>
+        <td><button class="button1">Edit</button></td>
+        <td><button class="button2">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>Lucille</td>
+        <td>Washington</td>
+        <td>
+            <img src="{% static 'assets/images/denzel.jpeg' %}" alt="">
+        </td>
+        <td ><button class="button1">Edit</button></td>
+        <td><button class="button2">Delete</button></td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>Liam</td>
+        <td>Neeson</td>
+        <td>
+            <img src="{% static 'assets/images/liam.jpeg' %}" alt="">
+        </td>
+        <td ><button class="button1">Edit</button></td>
+        <td><button class="button2">Delete</button></td>
+    </tr>
+
+</table>
+
+
+
+</body>
+</html>
