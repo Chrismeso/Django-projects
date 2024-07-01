@@ -1,0 +1,15 @@
+form{
+    background-color: burlywood;
+    padding: 50px;
+    width: 70%;
+    margin: auto;
+
+}
+h2{
+    text-align: center;
+}
+body{
+background-image: url("../assets/images/landscape.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
